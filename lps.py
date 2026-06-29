@@ -4,11 +4,7 @@ def test():
 import nmap
 
 
-#waaahh he didnt text me back and its been 2m
-#never mind, he also said sorry for not replying faster without me saying anything :3
-#he said he started learning web development bc he knows i like coding <3
-#right time to ghost him becuse yes bye bye
-#who is even reading these comments lmao i am not willingly showing this code to anyone
+
 
 
 def scan_tcp(address): 

@@ -32,7 +32,7 @@ def process_cmd(userscmd):
         else:
             print('Please enter a valid command.')
 
-        userscmd = str(input('PeiceOfShxt>>> '))
+        userscmd = str(input('chaos>>> '))
         userscmd = userscmd.split()
     exit()
 

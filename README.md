@@ -9,9 +9,6 @@ features:
 - packet sniffer                    
 - framework                 
 
-theirs a bunch of comments talking to myself everywhere           
-deal with it.             
-
 no exploits because of the 1990 computer misuse act section 3A           
 and if I get caught no more computing           
 

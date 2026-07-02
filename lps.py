@@ -28,7 +28,7 @@ def scan_udp(address):
         print('The device you are trying to reach is unreachable.')
         return 0
     elif 'udp' not in nm[address].keys(): 
-        print('It seems that their is no UDP ports open. UDP is sketchy I don\'t like it.')
+        print('It seems that there is no UDP ports open. UDP is sketchy I don\'t like it.')
         return 0
     elif nm[address]['udp'] == {}: 
         print('It seems that you have UDP ports, but nmap didnt get any response from them. How unreliable of UDP.')

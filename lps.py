@@ -3,10 +3,6 @@ def test():
 
 import nmap
 
-
-
-
-
 def scan_tcp(address): 
     print(f'Please wait. The program has recieved the address: {address}, and is now working on scanning it to find the open TCP ports.\nThis will take ~30 seconds.')
     nm = nmap.PortScanner()
@@ -14,10 +10,12 @@ def scan_tcp(address):
     output = []
     scannedbynmap = nm[address]['tcp'].keys()
     for port in scannedbynmap:
-        if (nm[address]['tcp'][port]['state']) == 'open': output.append(f'Port {port} is open with TCP running, using {nm[address]['tcp'][port]['version']}')
-    if (len(scannedbynmap)) == 0: print('The device you are trying to scan seems unreachable.')
-    for i in range(len(output)): print(output[i])
-
+        if (nm[address]['tcp'][port]['state']) == 'open': 
+            output.append(f'Port {port} is open with TCP running, using {nm[address]['tcp'][port]['version']}')
+    if (len(scannedbynmap)) == 0: 
+        print('The device you are trying to scan seems unreachable.')
+    for i in range(len(output)): 
+        print(output[i])
 
 def scan_udp(address): 
     print(f'Please wait. The program has recieved the address: {address}, and is now working on scanning it to find the open UDP ports.\nThis will take ~90+ seconds.')
@@ -35,9 +33,11 @@ def scan_udp(address):
         return 0
     scannedbynmap = nm[address]['udp'].keys()
     for port in scannedbynmap:
-        chec_state = nm[address]['udp'][port]['state']
-        if chec_state == 'open': output.append(f'Port {port} is {chec_state} with UDP.')
-    if not(output):print('Scan finished, no UDP ports detected.')
+        check_state = nm[address]['udp'][port]['state']
+        if check_state == 'open': 
+            output.append(f'Port {port} is {check_state} with UDP.')
+    if not(output):
+        print('Scan finished, no UDP ports detected.')
     else:
         for i in range(len(output)): print(output[i])
 

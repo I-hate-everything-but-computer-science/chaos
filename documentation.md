@@ -1,9 +1,3 @@
-okay
-so
-basically
-
-
-idk.
 
 'exit' -> turns off the project and stops the code
 

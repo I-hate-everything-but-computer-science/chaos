@@ -1,5 +1,4 @@
 # chaos
-My first project, not the best but has a half broken framework, like 2 basic commands of a ping sweeper and port scanner and packet sniffer           
                   
 name: chaos                       
           
@@ -9,6 +8,5 @@ features:
 - packet sniffer                    
 - framework                 
 
-no exploits because of the 1990 computer misuse act section 3A           
-and if I get caught no more computing       
-and no using this in anyone elses network bc that also violates the law 
+In this project, their is no exploits because of the 1990 computer misuse act section 3A.
+Keep in mind that using this on a network you have unauthorised access to also violates the law.

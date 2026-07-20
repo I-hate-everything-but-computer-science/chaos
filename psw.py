@@ -15,5 +15,5 @@ def psw(SUBNET):
                 output.append(f'The device with the IPv4 address {host} is on and connected to the internet.')
         for i in range(len(output)): print(output[i])
     except BaseException as Exception:
-        print(f'Error:{Exception}')
+        print(f'Error:{Exception.args}')
 

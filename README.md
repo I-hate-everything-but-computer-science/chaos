@@ -14,4 +14,7 @@ and if I get caught no more computing
 and no using this in anyone elses network bc that also violates the law 
 
                     
-no more computing = instant depression 
+july upds:
+- added documentation
+- made readability better
+- fixed bug in packet sniffer

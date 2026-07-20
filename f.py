@@ -1,7 +1,7 @@
 def test():
     return 1
 
-import lps, psn, psw
+import lps, psn, psw, h
 from datetime import datetime
     
 def error_msg():
@@ -27,6 +27,8 @@ def process_cmd(userscmd):
                     cmd_done()
         elif userscmd[0] == 'ping-sweep':
             psw.psw(userscmd[1])
+        elif userscmd[0] in ['help','cmds','commands']:
+            h.help()
         elif userscmd[0] == 'packet-sniff':
             psn.sniff(userscmd[1])
         else:

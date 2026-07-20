@@ -4,7 +4,7 @@ def test():
 import lps, psn, psw
 from datetime import datetime
     
-def oopsies():
+def error_msg():
     print('It seems their is an error. Please do not contact the developer, she is anti-social.')
     exit()
     
@@ -25,7 +25,6 @@ def process_cmd(userscmd):
                     lps.scan_tcp(userscmd[3])
                     lps.scan_udp(userscmd[3])
                     cmd_done()
-        #elif userscmd[0] == 'a': psw.PiNgSwEePeR('192.168.50.1/24')
         elif userscmd[0] == 'ping-sweep':psw.PiNgSwEePeR(userscmd[1])
         elif userscmd[0] == 'packet-sniff':psn.SNIFFsniffINHHHHAAAALLLLLLEEEEEEsneeeeeeeeeeeee33333333333333333EEEEEEEEEEEEEEEEEEEEEZZZZZEEEEEEEEbcHAYfever(userscmd[1])
 

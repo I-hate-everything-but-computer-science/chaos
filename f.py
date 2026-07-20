@@ -26,7 +26,7 @@ def process_cmd(userscmd):
                     lps.scan_udp(userscmd[3])
                     cmd_done()
         elif userscmd[0] == 'ping-sweep':
-        psw.psw(userscmd[1])
+            psw.psw(userscmd[1])
         elif userscmd[0] == 'packet-sniff':
             psn.sniff(userscmd[1])
         else:

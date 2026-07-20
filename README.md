@@ -12,9 +12,3 @@ features:
 no exploits because of the 1990 computer misuse act section 3A           
 and if I get caught no more computing       
 and no using this in anyone elses network bc that also violates the law 
-
-                    
-july upds:
-- added documentation
-- made readability better
-- fixed bug in packet sniffer

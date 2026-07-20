@@ -1,6 +1,6 @@
-import f, lps, psn, psw
+import f, lps, psn, psw, h
 
-if f.test() and lps.test() and psn.test() and psw.test(): 
+if f.test() and lps.test() and psn.test() and psw.test() and h.test(): 
   print('All scripts loaded.')
 else: 
   print('An error ocurred.'), exit()
